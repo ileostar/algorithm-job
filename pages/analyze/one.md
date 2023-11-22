@@ -1,6 +1,12 @@
 # 01-问题分析
 
-This shows on the left
+### 什么是最长公共字序列?
+<br/>
+
+> 一个给定序列的子序列是在该序列中删去若干元素后得到的序列。最长公共子序列(Longest Common Subsequence，LCS)问题：
+
+> 给定两个序列X和Y，找出X和Y的一个最长公共子序列。用动态规划求LCS，复杂度是O(nm)。
+
 
 
 <BarBottom bg-blue-9 text-white title="Algorithm Job 算法设计课程作业">

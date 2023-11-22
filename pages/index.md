@@ -1,4 +1,4 @@
-# Algotithm Job
+# Algorithm Job
 
 <p text-3>4-1组（刘兴豪、陈芷妍、朱子鸿、罗洁绚）</p>
 

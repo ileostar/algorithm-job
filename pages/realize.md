@@ -1,11 +1,24 @@
 # 02-算法实现
 
-```ts {2-3|5|all}
-function add(
-  a: Ref<number> | number,
-  b: Ref<number> | number
-) {
-  return computed(() => unref(a) + unref(b))
+```ts {all|1-2|4-5|6|7|8-17|all}
+char a[MAXSTRLEN], b[MAXSTRLEN];
+int dp[MAXSTRLEN][MAXSTRLEN], path[MAXSTRLEN][MAXSTRLEN];
+
+///求序列x和y的LCS，path保存路径指向，以方便打印公共子序列
+int Lcs(char x[], char y[]){
+	int i, j, len1 = strlen(x + 1), len2 = strlen(y + 1);
+	memset(dp, 0, sizeof(dp));
+	for (i = 1; i <= len1; ++i){
+    for (j = 1; j <= len2; ++j){
+			if (x[i] == y[j])
+				dp[i][j] = dp[i - 1][j - 1] + 1, path[i][j] = 1;
+			else if (dp[i - 1][j] >= dp[i][j - 1])
+				dp[i][j] = dp[i - 1][j], path[i][j] = 2;
+			else
+				dp[i][j] = dp[i][j - 1], path[i][j] = 3;
+		}
+  }
+	return dp[len1][len2];
 }
 ```
 

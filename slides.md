@@ -1,6 +1,7 @@
 ---
 src: ./pages/index.md
 hide: false
+title: 'Algorithme-Job'
 theme: purplin
 hideInToc: true
 class: text-center
@@ -26,6 +27,7 @@ fonts:
 
 ---
 src: ./pages/menu.md
+title: 'Menu'
 layout: image-x
 image: 'https://source.unsplash.com/collection/94734566/600x600'
 imageOrder: 2
@@ -33,11 +35,29 @@ hideInToc: true
 ---
 
 ---
-src: ./pages/analyze.md
+src: ./pages/analyze/one.md
 title: '问题分析'
 layout: image-x
 image: 'https://source.unsplash.com/collection/94734566/1080x1920'
 imageOrder: 2
+---
+
+---
+src: ./pages/analyze/two.md
+title: '问题分析'
+layout: image-x
+image: 'https://source.unsplash.com/collection/94734566/1081x1920'
+imageOrder: 2
+---
+
+---
+src: ./pages/analyze/three.md
+title: '问题分析'
+---
+
+---
+src: ./pages/analyze/four.md
+title: '问题分析'
 ---
 
 ---
@@ -57,11 +77,22 @@ imageOrder: 2
 ---
 
 ---
-src: ./pages/case.md
+src: ./pages/case/one.md
 title: '案例分析'
 layout: image-x
-image: 'https://source.unsplash.com/collection/94734566/1079x1920'
+image: 'https://source.unsplash.com/collection/94734566/1080x1920'
 imageOrder: 2
+---
+
+---
+src: ./pages/case/two.md
+title: '案例分析'
+---
+
+
+---
+src: ./pages/case/three.md
+title: '案例分析'
 ---
 
 ---
