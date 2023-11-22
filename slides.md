@@ -9,6 +9,7 @@ lineNumbers: false
 layout: quote
 position: center
 colorSchema: 'light'
+record: true
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
