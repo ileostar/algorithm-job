@@ -85,7 +85,7 @@ title: '调试及时间复杂度分析'
 src: ./pages/test/three.md
 title: '调试及时间复杂度分析'
 layout: image-x
-image: 'https://img.leostar.top/study/1a3938bc9679233cc597e0363759713.png'
+image: 'https://img.leostar.top/study/511b753beec4caacc124a1c588db057.png'
 imageOrder: 2
 ---
 
