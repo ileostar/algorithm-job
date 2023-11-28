@@ -69,12 +69,26 @@ imageOrder: 2
 ---
 
 ---
-src: ./pages/test.md
+src: ./pages/test/one.md
 title: '调试及时间复杂度分析'
 layout: image-x
 image: 'https://source.unsplash.com/collection/94734566/1081x1920'
 imageOrder: 2
 ---
+
+---
+src: ./pages/test/two.md
+title: '调试及时间复杂度分析'
+---
+
+---
+src: ./pages/test/three.md
+title: '调试及时间复杂度分析'
+layout: image-x
+image: 'https://img.leostar.top/study/1a3938bc9679233cc597e0363759713.png'
+imageOrder: 2
+---
+
 
 ---
 src: ./pages/case/one.md
