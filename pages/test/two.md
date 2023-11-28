@@ -3,7 +3,7 @@
 
 <br/>
 
-<img src="https://img.leostar.top/study/db9d165f7fcbac10bc7898ec9041111.png" h-100 rd-2 />
+<img src="https://img.leostar.top/study/511b753beec4caacc124a1c588db057.png" h-100 rd-2 />
 
 <BarBottom bg-blue-9 text-white title="Algorithm Job 算法设计课程作业">
   <Item text-white text="ileostar/algorithm-job">
